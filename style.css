@@ -1,0 +1,60 @@
+a{
+    font-weight: 600;
+    color: #3B5998;
+    text-decoration: none;
+}
+a:hover{
+    color: #CC0000;
+    text-decoration:underline;
+}
+p{
+    font-size: 12px;
+}
+h5{
+    color: #3B5998; 
+}
+.blue{
+    background-color: #DEE8FC;
+    font-weight: 600;
+    font-size: 13.8px !important;
+}
+.bluenav-button{
+    color: #3B5998;
+    font-size: 16px;
+}
+.bluenav-button:hover{
+    color: white;
+    background-color: #88A4D6;
+}
+.rednav-button{
+    background-color: #FF7A7A;
+    color: white;
+}
+.rednav-button:hover{
+    background-color: #FF4545;
+    color: white;
+}
+.bluecard{
+    background-color: #DEE8FC;
+    transition: 0.2s;
+}
+.card-img{
+    margin: 8px; 
+    width: 95%
+}
+.bluecard:not(:first-child){
+    margin-left: -24rem;
+}
+.bluecard:last-child{
+    margin-left: 0.1rem;
+}
+.bluecard:hover{
+    transform: translateX(-0.5rem);
+}
+.bluecard:hover ~ .bluecard:not(:last-child){
+    transform: translateX(22rem);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block !important; 
+ }
+ 
